@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Utravel BES T3</title>
 </head>
 <body>
-    
+    <main>
+        <header>
+            <h1><a href="#">Utravel BES T3</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">EN</a></li>
+                </ul>
+            </nav>
+            <h2>we are here for you. Worldwide</h2>
+        </header>
+        <!--Meu comentário-->
+        <!-- Formulário das Passagens -->
+        <section id="tickets">
+            <div id="buytickets">
+                <h2>Buy Tickets</h2>
+                <form>
+                    <input type="radio" id="oneway" value="oneway" name="buy_tickets">
+                    <label for="oneway">On Way</label>
+                    <input type="radio" id="roundtrip" value="roundtrip" name="buy_tickets">
+                    <label for="roundtrip">Round Trip</label>
+                    <input type="radio" id="multicity" value="multicity" name="buy_tickets">
+                    <label for="multicity">Multi-city</label>
+
+                    <label for="cityfrom">From</label>
+                    <select name="cityfrom" id="cityfrom" form="cityform">
+                        <option value="salvador">Salvador</option>
+                        <option value="saopaulo">São Paulo</option>
+                        <option value="rio">Rio de Janeiro</option>
+                    </select>
+
+                    <label for="cityto">To</label>
+                    <select name="cityto" id="cityto" form="cityform">
+                        <option value="salvador">Salvador</option>
+                        <option value="saopaulo">São Paulo</option>
+                        <option value="rio">Rio de Janeiro</option>
+                    </select>
+
+                </form>
+            </div>
+            <div id="checkyou">
+
+            </div>
+        </section>
+        <section id="alert"></section>
+        <section id="location"></section>
+        <section id="discover"></section>
+        <footer>
+            <h2>Passengers</h2>
+        </footer>
+    </main>
 </body>
 </html>
