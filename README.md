@@ -4,3 +4,5 @@ Demonstração das seguintes três funcionalidades com JavaScript:
 - Hamburguer Menu
 - Automatic SlideShow Images
 - TABS
+
+Obs: Estrutura do site disponibilizada pelo professor, feito apenas a adição das funcionalidades citadas
