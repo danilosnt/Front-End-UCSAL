@@ -18,31 +18,45 @@
 <body>
     <main>
         <header>
+            
             <div id="banner">BRASIL 0800-8913998</div>
             <nav class="topnav" id="myTopnav">
                 <a href="#" class="active"><img src="images/h1_a_logo.png" alt="Royal Caribbean INTERNATIONAL"></a>
-                <a href="">Encontre seu cruzeiro</a></li>
-                <a href="">Ofertas</a>
-                <a href="">Nossos Navios</a>
-                <a href="">Destinos</a>
-                <a href="">Gerenciar</a>
-                <a href="">Meu Cruzeiro</a>
-                <a href="">Login</a>
-                <a href="" class="icon" >
-                        <i class="fa fa-bars"></i>
+                    <div id="topnavis">
+                    <a href="">Encontre seu cruzeiro</a>
+                    <a href="">Ofertas</a>
+                    <a href="">Nossos Navios</a>
+                    <a href="">Destinos</a>
+                    <a href="">Gerenciar</a>
+                    <a href="">Meu Cruzeiro</a>
+                    <a href="">Login</a>
+                
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="menuHamburguer()">
+                    <i class="fa fa-bars"></i>
                 </a>
-                </ul>
+
+                    <div id="menuHamburguer" class="sideMenu">
+                    <a href="javascript:void(0);" class="closebtn" onclick="closeMenu()"
+                        >&times;</a
+                    >
+                    <a href="#home">Home</a>
+                    <a href="#cruzeiro">Encontre Seu cruzeiro perfeito</a>
+                    <a href="#ofertas">Melhores ofertas</a>
+                    <a href="#navios">Nossos melhores Navios</a>
+                    <a href="#destinos">Destinos dos sonhos</a>
+                    <a href="#">Gerenciar suas viagens</a>
+                    <a href="#formulario">Meu Cruzeiro</a>
+                    <a href="#">Login</a>
+                    </div>
+
             </nav>
-            
             <div class="banner">
                 <img class="mySlides" src="images/slide_1_brasil.jpg" style="width:100%">
                 <img class="mySlides" src="images/slide_2_cancun.jpg" style="width:100%">
                 <img class="mySlides" src="images/slide_3_caribe.jpg" style="width:100%">
                 <img class="mySlides" src="images/slide_4_aruba.jpg" style="width:100%">
             </div>
-            
-
-
         </header>
 
         <section id="cruzeiro">
@@ -50,46 +64,42 @@
                 <button class="tabButton">Reservas</button>
                 <button class="tabButton">Viagens</button>
                 <button class="tabButton">Passeios</button>
-              </div>
-
+            </div>
 
             <div id="Reservas" class="tabs travel">
                 <h4>Reserva Agora</h4>
-            <div id="cruzeiro-linha-divisora"></div>
-
-            <div class="form-reserva">
-                <form>
-                    <div class="form-group">
-                        <label for="destino">Destino</label>
-                        <select name="cityfrom" id="cityfrom" form="cityform">
-                            <option value="salvador">Salvador</option>
-                            <option value="saopaulo">São Paulo</option>
-                            <option value="rio">Rio de Janeiro</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="porto">Porto de Embarque</label>
-                        <select name="cityfrom" id="cityfrom" form="cityform">
-                            <option value="salvador">Salvador</option>
-                            <option value="saopaulo">São Paulo</option>
-                            <option value="rio">Rio de Janeiro</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="data">Data de Embarque</label>
-                        <input type="date" id="traveldate" name="traveldate">
-                    </div>
-                    <div class="form-group">
-                        <label for="passageiros">Passageiros</label>
-                        <select name="cityfrom" id="cityfrom" form="cityform">
-                            <option value="2adultos">2 Adultos</option>
-                            <option value="1adulto">1 Adulto</option>
-                            <option value="1adulto1crianca">1 Adulto e 1 Criança</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group"></div>
-                    <button type="submit" id="btn-buscar">BUSCAR</button>
+                <div id="cruzeiro-linha-divisora"></div>
+                <div class="form-reserva">
+                    <form>
+                        <div class="form-group">
+                            <label for="destino">Destino</label>
+                            <select name="cityfrom" id="cityfrom">
+                                <option value="salvador">Salvador</option>
+                                <option value="saopaulo">São Paulo</option>
+                                <option value="rio">Rio de Janeiro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="porto">Porto de Embarque</label>
+                            <select name="cityfrom" id="cityfrom">
+                                <option value="salvador">Salvador</option>
+                                <option value="saopaulo">São Paulo</option>
+                                <option value="rio">Rio de Janeiro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="data">Data de Embarque</label>
+                            <input type="date" id="traveldate" name="traveldate">
+                        </div>
+                        <div class="form-group">
+                            <label for="passageiros">Passageiros</label>
+                            <select name="cityfrom" id="cityfrom">
+                                <option value="2adultos">2 Adultos</option>
+                                <option value="1adulto">1 Adulto</option>
+                                <option value="1adulto1crianca">1 Adulto e 1 Criança</option>
+                            </select>
+                        </div>
+                        <button type="submit" id="btn-buscar">BUSCAR</button>
                 </form>
             </div>
             </div>
@@ -229,5 +239,8 @@
         </footer>
     </body>
     </main>
+
+    <script src="script.js"></script>
+    
 </body>
 </html>
