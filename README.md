@@ -1,8 +1,8 @@
-## Trabalho para demonstrar práticas de JavaScript na matéria de Front-End.
+## Work to Demonstrate JavaScript Practices in the Front-End Course
 
-Demonstração das seguintes três funcionalidades com JavaScript:
+Demonstration of the following three functionalities using JavaScript:
 - Hamburguer Menu
 - Automatic SlideShow Images
 - TABS
 
-Obs: Estrutura do site disponibilizada pelo professor, feito apenas a adição das funcionalidades citadas
+Note: The website structure was provided by the professor, only the mentioned functionalities were added.
