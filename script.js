@@ -1,3 +1,4 @@
+// MENU HAMBURGUER
 function menuHamburguer() {
     const menu = document.getElementById("menuHamburguer");
     menu.style.width = "400px";
@@ -7,6 +8,7 @@ function menuHamburguer() {
     menu.style.width = "0";
   }
 
+// AUTOMATIC SLIDESHOW
 document.addEventListener("DOMContentLoaded", function () {
     let slideIndex = 0;
     const slides = document.querySelectorAll(".mySlides");
@@ -24,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     showSlides();
 });
 
+// TABS
 document.addEventListener("DOMContentLoaded", function () {
     const tabButtons = document.querySelectorAll(".tabButton");
     const tabs = document.querySelectorAll(".tabs");
